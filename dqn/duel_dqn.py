@@ -163,8 +163,8 @@ def main(env, q, q_target, optimizer, device):
 
 
 if __name__ == "__main__":
-    ckpt_path1 = "mario_q_1217.5.pth"
-    ckpt_path2 = "mario_q_target_1217.5.pth"
+    ckpt_path1 = "mario_q.pth"
+    ckpt_path2 = "mario_q_target.pth"
     print(f"Load ckpt from {ckpt_path1} and {ckpt_path2}")
 
     n_frame = 4
